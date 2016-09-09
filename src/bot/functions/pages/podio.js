@@ -3,7 +3,8 @@ function page() {
   var stats;
   var quotes = [
       'Det er en haster',
-      'Arbejd, arbejd'
+      'Arbejd, arbejd',
+      'Det er godt at være chef'
   ];
 
   this.init = function( settings ) {

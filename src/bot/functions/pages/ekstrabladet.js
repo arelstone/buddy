@@ -5,7 +5,8 @@ function page() {
       'Nå, tilbage til arbejdet!',
       'Så er jeg tilbage på nationen',
       'Nationen.... Lad os se hvad de siger',
-      'Det er en haster'
+      'Det er en haster',
+    'Det er godt at være chef'
   ];
 
   this.init = function( settings ) {
