@@ -5,12 +5,6 @@
 var pagePath = "./bot/functions/pages/";
 
 var initters = {
-  "ekstrabladet.dk": {
-    script: "ekstrabladet.js"
-  },
-  "podio.com": {
-    script: "podio.js"
-  },
   "twitter.com": {
     script: "twitter.js"
   }

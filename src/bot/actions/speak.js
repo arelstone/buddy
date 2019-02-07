@@ -3,9 +3,9 @@
  */
 
 var languageOptions = {
-  'lang': 'da-DK',
-  'rate': 0.75,
-  'pitch': 0.3
+  'lang': 'en-US',
+  'rate': 1.0,
+  'pitch': 1
 }
 
 function speak(words) {

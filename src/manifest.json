@@ -4,8 +4,8 @@
   "description": "Because working from home is never fun.",
   "version": "1.0",
   "icons": {
-    // "48": "./assets/icons/48.png",
-    // "128": "./assets/icons/128.png"
+    "48": "./assets/icons/48.png",
+    "128": "./assets/icons/128.png"
   },
   "permissions": [
     "<all_urls>",
@@ -15,18 +15,12 @@
   ],
   "tts_engine": {
     "voices": [
-//      {
-//        "voice_name": "Buddy",
-//        "lang": "en-US",
-//        "gender": "male",
-//        "event_types": ["start", "marker", "end"]
-//      },
-      {
-        "voice_name": "Buddy",
-        "lang": "da-DK",
-        "gender": "male",
-        "event_types": ["start", "marker", "end"]
-      }
+     {
+       "voice_name": "Buddy",
+       "lang": "en-US",
+       "gender": "male",
+       "event_types": ["start", "marker", "end"]
+     }
     ]
   },
   "content_scripts": [
