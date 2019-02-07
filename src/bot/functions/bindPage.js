@@ -5,16 +5,12 @@
 var pagePath = "./bot/functions/pages/";
 
 var initters = {
-  "twitter.com": {
-    script: "twitter.js"
-  }
+  //"localhost:8989": {script: "examples/debitoor-localhost.js"},
+  "twitter.com": {script: "twitter.js"}
 };
 
 function initPage(pageLocation) {
-
   if(initters[pageLocation]) {
-
-    setSimilarTabs(pageLocation);
 
     chrome.tabs.executeScript(null, {file: pagePath + "pageActions.js"});
     chrome.tabs.executeScript(null, {file: pagePath + initters[pageLocation].script});
